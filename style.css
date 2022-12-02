@@ -1,0 +1,43 @@
+/* Enlever les margin et padding par défaut */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styler la navbar et la faire coller en haut du viewport */
+
+nav {
+  padding: 2em;
+  text-align: center;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+}
+
+/* Enlever le point de la liste */
+
+li {
+  list-style-type: none;
+}
+
+/* Donner une hauteur aux sections */
+
+section {
+  height: 25vh;
+}
+
+/* Donner une couleur dégradé linéaire aux sections */
+
+.section__1,
+.section__3,
+.section__5 {
+  background-image: linear-gradient(135deg, #fad7a1 10%, #e96d71 100%);
+}
+
+.section__2,
+.section__4,
+.section__6 {
+  background-image: linear-gradient(135deg, #52e5e7 10%, #130cb7 100%);
+}
